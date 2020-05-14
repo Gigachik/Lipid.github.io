@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lipid Score</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css"> 
+
+    
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_menu">
+                <div class="header_logo">
+                    <a href="">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header_toggle">
+                    <div class="header_burger" id="header_burder">
+                        <span class="header_burger-item"></span>
+                    </div> 
+                </div>
+               
+                <nav class="header_nav">
+                    <ul>
+                        <li><a href="#">Home page</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header_intro">
+                <div class="header_intro-content">
+                    <div class="header_intro-title">
+                        Are you ready to start working with us?
+                    </div>
+                    <div class="header_intro-text">
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                    </div>
+                    <div class="header_intro-btn">
+                        <div class="header_intro-inner">
+                            <input class="header_input" type="text" placeholder="CODE">
+                        </div>
+                        <div class="header_intro-inner">
+                            <button class="btn">
+                                Login
+                            </button>
+                        </div>
+                        
+                    </div>
+                    <div class="header_intro-undertext">
+                        Don’t have a code? Please, <a data-scroll="#contacts" href="#">contact us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <div class="contact_text">
+                Contact us
+            </div>
+            <form>
+                <!-- Hidden Required Fields -->
+                <input type="hidden" name="project_name" value="Lipid Score">
+                <input type="hidden" name="admin_email" value="A9652353534@YANDEX.RU">
+                <input type="hidden" name="form_subject" value="Form">
+                <!-- END Hidden Required Fields -->
+
+            
+                <div class="form_input">
+                    <label for="e-mail">Mail</label>
+                    <input required type="email" name="e-mail">
+                </div>
+                <div class="form_text">
+                    <label for="message">Message</label>
+                    <textarea required type="text" name="message"></textarea>
+                </div>
+            
+                <button class="btn btn-contacts" type="submit">send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
